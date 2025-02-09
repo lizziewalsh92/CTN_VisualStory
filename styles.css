@@ -1,0 +1,59 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+
+html, body {
+    font-family: 'Pt Serif Caption', serif;
+}
+
+h1, h4, p {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.pt-serif-caption-regular {
+  font-family: "PT Serif Caption", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-caption-regular-italic {
+  font-family: "PT Serif Caption", serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.mulish-regular {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+img {
+    width: 100%;
+    display: block;
+  
+}
+
+
+
+
