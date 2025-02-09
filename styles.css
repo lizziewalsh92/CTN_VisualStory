@@ -2,12 +2,12 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
 
-html, body {
-    font-family: 'Pt Serif Caption', serif;
+p, body {
+    font-family: "Mulish", sans-serif;
+    font-size: .9 rem;
 }
-
-h1, h4, p {
-    font-family: 'Mulish', sans-serif;
+h1, h2, h3, h4 {
+    font-family: "PT Serif Caption", serif;
 
 }
 
@@ -21,6 +21,7 @@ h4 {
 }
 
 .quote {
+    font-size: .9 rem;
     font-style: italic;
 }
 
@@ -42,7 +43,7 @@ h4 {
 }
 
 .mulish-regular {
-    font-family: "Mulish", serif;
+    font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
