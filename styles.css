@@ -5,6 +5,7 @@
 p, body {
     font-family: "Mulish", sans-serif;
     font-size: .9 rem;
+    margin: 5px;
 }
 h1, h2, h3, h4 {
     font-family: "PT Serif Caption", serif;
@@ -13,13 +14,31 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 2.5rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border: 5px;
+    border-style: solid;
+    margin: 10px;
+    text-align: center;
+}
 
+h3 {
+    font-size: 1.6rem;
+    padding-left: 10px;
 }
 
 h4 {
     font-size: 1.5rem;
+    padding-left: 10px;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 10px;
+}
 .quote {
     font-size: .9 rem;
     font-style: italic;
@@ -53,6 +72,10 @@ img {
     width: 100%;
     display: block;
   
+}
+
+.first-pgh {
+    padding-inline-start: 10px;
 }
 
 
