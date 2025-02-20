@@ -1,11 +1,16 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
+html {
+background-color: #E1E5F2;
+}
+
 
 p, body {
     font-family: "Mulish", sans-serif;
     font-size: .9 rem;
     margin: 5px;
+   
 }
 h1, h2, h3, h4 {
     font-family: "PT Serif Caption", serif;
@@ -15,30 +20,59 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 2.5rem;
     padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 10px;
     border: 5px;
     border-style: solid;
-    margin: 10px;
+    margin: 80px 80px 80px 80px;
     text-align: center;
+    background-color: #1F7A8C;
+    
 }
 
 h3 {
     font-size: 1.6rem;
-    padding-left: 20px;
+    margin: 80px 80px 50px 80px;
 }
 
 h4 {
     font-size: 1.5rem;
-    padding-left: 20px;
 }
 
 p {
     font-size: 1rem;
     line-height: 1.5;
-    padding-left: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
+.topperimg {
+    width: 90%;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+  text-align: left;
+  height:auto;
+  margin: 20px 80px 10px 80px;
+  border: solid #1F7A8C;
+  border-width: 10px;
+}
+
+.topperimg img {
+    width: 100%; /* Ensures the image spans the full width */
+    max-height: 80vh; /* Prevents excessive height on large screens */
+    object-fit: cover; /* Ensures the image covers the full width */
+    display: block; /* Removes bottom margin space */
+}
+
+.toppercaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    font-size: .9rem;
+}
+
 .quote {
     font-size: .9 rem;
     font-style: italic;
@@ -46,6 +80,8 @@ p {
 
 .bold {
     font-weight: 700;
+    color: #1F7A8C;
+    text-shadow: rgb(244, 241, 241) 1px 1px;
 }
 
 .pt-serif-caption-regular {
@@ -68,16 +104,59 @@ p {
     font-style: normal;
   }
 
-
-.first-pgh {
-    padding-inline-start: 10px;
-}
-
 .bodytext {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
+.secondimg {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+   ;
+}
 
+.image-container {
+    max-width: 700px; /* Set to the same max width as the image */
+    width: 80%; /* Ensure it scales responsively */
+    text-align: center; /* Center the caption text */
+    margin: 0;
+    background-color: #BFDBF7;
+    border: 5px;
+    border-style: solid;
+    border-color: #1F7A8C;
+}
+
+.image-container img {
+    width: 100%; /* Image will take up the full width of the container */
+    height: auto;
+    object-fit: cover; 
+}
+
+.caption {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.4;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.thirdimg {
+    width: 100%;
+    display: flex;
+   justify-content: center;
+}
+
+.chartcontainer {
+    max-width: 700px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: solid#1F7A8C;
+    border-width: 20px;
+}
 
 
