@@ -48,6 +48,15 @@ p {
     padding-right: 80px;
 }
 
+.separator {
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: "PT Serif Caption", serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .topperimg {
     width: 90%;
     display: flex;
@@ -82,7 +91,9 @@ p {
     text-align: center;
     justify-content: center;
     padding: 20px;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
     background-color: #1F7A8C;
     color: #FFFFFF;
     float: right;
@@ -90,6 +101,22 @@ p {
 
 
 }
+
+.pullquote2 {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #1F7A8C;
+    color: #FFFFFF;
+    float: left;
+    max-width: 250px;
+}
+
 .bold {
     font-weight: 700;
     color: #1F7A8C;
